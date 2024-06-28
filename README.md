@@ -1,11 +1,11 @@
-# Mongo Kerberos [![Build Status](https://secure.travis-ci.org/mongodb/mongo-ruby-kerberos.png?branch=master&.png)](http://travis-ci.org/mongodb/mongo-ruby-kerberos) [![Code Climate](https://codeclimate.com/github/mongodb/mongo-ruby-kerberos.png)](https://codeclimate.com/github/mongodb/mongo-ruby-kerberos) [![Coverage Status](https://coveralls.io/repos/mongodb/mongo-ruby-kerberos/badge.png?branch=master)](https://coveralls.io/r/mongodb/mongo-ruby-kerberos?branch=master)
+# Mongo Kerberos
 
 Provides Kerberos authentication support to the Mongo Ruby Driver.
 
 
 ## Compatibility
 
-mongo_kerberos is tested against MRI (1.9.3+) and JRuby (9.1+).
+mongo_kerberos is tested against MRI (2.7+) and JRuby (9.3+).
 
 ### JRuby
 
@@ -36,11 +36,8 @@ require "mongo_kerberos"
 
 ## API Documentation
 
-Please see the [Kerberos authentication section](https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-authentication/#kerberos-gssapi-mechanism)
+Please see the [Kerberos authentication section](https://www.mongodb.com/docs/ruby-driver/current/reference/authentication/#kerberos--gssapi-)
 of the Ruby driver documentation for high level documentation of this library.
-
-The [API documentation](https://api.mongodb.com/ruby-kerberos/current/) is
-located at api.mongodb.com.
 
 ## Versioning
 
